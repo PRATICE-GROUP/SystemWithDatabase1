@@ -34,5 +34,12 @@ namespace SystemWithDatabase1
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormUnknown formUnknown = new FormUnknown();
+            formUnknown.Show();
+            this.Hide();
+        }
     }
 }
