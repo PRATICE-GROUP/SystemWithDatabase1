@@ -37,15 +37,25 @@
             this.menu3Button = new System.Windows.Forms.Button();
             this.menu4Button = new System.Windows.Forms.Button();
             this.menu5Button = new System.Windows.Forms.Button();
+            this.profileDividerPanel = new System.Windows.Forms.Panel();
+            this.profilePictureBox = new System.Windows.Forms.PictureBox();
+            this.userNameLabel = new System.Windows.Forms.Label();
+            this.userRoleLabel = new System.Windows.Forms.Label();
             this.logoutButton = new System.Windows.Forms.Button();
             this.sideBarPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.profilePictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // sideBarPanel
             // 
             this.sideBarPanel.BackColor = System.Drawing.Color.FromArgb(30, 41, 59);
+            this.sideBarPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.SideBarPanel_Paint);
             this.sideBarPanel.Controls.Add(this.logoutButton);
+            this.sideBarPanel.Controls.Add(this.userRoleLabel);
+            this.sideBarPanel.Controls.Add(this.userNameLabel);
+            this.sideBarPanel.Controls.Add(this.profilePictureBox);
+            this.sideBarPanel.Controls.Add(this.profileDividerPanel);
             this.sideBarPanel.Controls.Add(this.menu5Button);
             this.sideBarPanel.Controls.Add(this.menu4Button);
             this.sideBarPanel.Controls.Add(this.menu3Button);
@@ -101,7 +111,7 @@
             // 
             // menu1Button
             // 
-            this.menu1Button.BackColor = System.Drawing.Color.FromArgb(30, 41, 59);
+            this.menu1Button.BackColor = System.Drawing.Color.Transparent;
             this.menu1Button.FlatAppearance.BorderSize = 0;
             this.menu1Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(51, 65, 85);
             this.menu1Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(51, 65, 85);
@@ -119,7 +129,7 @@
             // 
             // menu2Button
             // 
-            this.menu2Button.BackColor = System.Drawing.Color.FromArgb(30, 41, 59);
+            this.menu2Button.BackColor = System.Drawing.Color.Transparent;
             this.menu2Button.FlatAppearance.BorderSize = 0;
             this.menu2Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(51, 65, 85);
             this.menu2Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(51, 65, 85);
@@ -137,7 +147,7 @@
             // 
             // menu3Button
             // 
-            this.menu3Button.BackColor = System.Drawing.Color.FromArgb(30, 41, 59);
+            this.menu3Button.BackColor = System.Drawing.Color.Transparent;
             this.menu3Button.FlatAppearance.BorderSize = 0;
             this.menu3Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(51, 65, 85);
             this.menu3Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(51, 65, 85);
@@ -155,7 +165,7 @@
             // 
             // menu4Button
             // 
-            this.menu4Button.BackColor = System.Drawing.Color.FromArgb(30, 41, 59);
+            this.menu4Button.BackColor = System.Drawing.Color.Transparent;
             this.menu4Button.FlatAppearance.BorderSize = 0;
             this.menu4Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(51, 65, 85);
             this.menu4Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(51, 65, 85);
@@ -173,7 +183,7 @@
             // 
             // menu5Button
             // 
-            this.menu5Button.BackColor = System.Drawing.Color.FromArgb(30, 41, 59);
+            this.menu5Button.BackColor = System.Drawing.Color.Transparent;
             this.menu5Button.FlatAppearance.BorderSize = 0;
             this.menu5Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(51, 65, 85);
             this.menu5Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(51, 65, 85);
@@ -188,6 +198,53 @@
             this.menu5Button.Text = "Menu 5";
             this.menu5Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.menu5Button.UseVisualStyleBackColor = false;
+            // 
+            // profileDividerPanel
+            // 
+            this.profileDividerPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.profileDividerPanel.BackColor = System.Drawing.Color.FromArgb(71, 85, 105);
+            this.profileDividerPanel.Location = new System.Drawing.Point(20, 744);
+            this.profileDividerPanel.Name = "profileDividerPanel";
+            this.profileDividerPanel.Size = new System.Drawing.Size(218, 1);
+            this.profileDividerPanel.TabIndex = 9;
+            // 
+            // profilePictureBox
+            // 
+            this.profilePictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.profilePictureBox.BackColor = System.Drawing.Color.FromArgb(51, 65, 85);
+            this.profilePictureBox.Location = new System.Drawing.Point(20, 765);
+            this.profilePictureBox.Name = "profilePictureBox";
+            this.profilePictureBox.Size = new System.Drawing.Size(38, 38);
+            this.profilePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.profilePictureBox.TabIndex = 10;
+            this.profilePictureBox.TabStop = false;
+            this.profilePictureBox.Resize += new System.EventHandler(this.ProfilePictureBox_Resize);
+            // 
+            // userNameLabel
+            // 
+            this.userNameLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.userNameLabel.AutoSize = true;
+            this.userNameLabel.BackColor = System.Drawing.Color.Transparent;
+            this.userNameLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userNameLabel.ForeColor = System.Drawing.Color.White;
+            this.userNameLabel.Location = new System.Drawing.Point(68, 765);
+            this.userNameLabel.Name = "userNameLabel";
+            this.userNameLabel.Size = new System.Drawing.Size(68, 15);
+            this.userNameLabel.TabIndex = 11;
+            this.userNameLabel.Text = "User Name";
+            // 
+            // userRoleLabel
+            // 
+            this.userRoleLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.userRoleLabel.AutoSize = true;
+            this.userRoleLabel.BackColor = System.Drawing.Color.Transparent;
+            this.userRoleLabel.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userRoleLabel.ForeColor = System.Drawing.Color.FromArgb(203, 213, 225);
+            this.userRoleLabel.Location = new System.Drawing.Point(68, 785);
+            this.userRoleLabel.Name = "userRoleLabel";
+            this.userRoleLabel.Size = new System.Drawing.Size(67, 13);
+            this.userRoleLabel.TabIndex = 12;
+            this.userRoleLabel.Text = "Administrator";
             // 
             // logoutButton
             // 
@@ -215,6 +272,7 @@
             this.Load += new System.EventHandler(this.DashboardUC_Load);
             this.sideBarPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.profilePictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -230,6 +288,10 @@
         private System.Windows.Forms.Button menu3Button;
         private System.Windows.Forms.Button menu4Button;
         private System.Windows.Forms.Button menu5Button;
+        private System.Windows.Forms.Panel profileDividerPanel;
+        private System.Windows.Forms.PictureBox profilePictureBox;
+        private System.Windows.Forms.Label userNameLabel;
+        private System.Windows.Forms.Label userRoleLabel;
         private System.Windows.Forms.Button logoutButton;
     }
 }
