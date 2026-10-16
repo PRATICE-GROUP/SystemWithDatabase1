@@ -37,9 +37,14 @@ namespace SystemWithDatabase1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FormUnknown formUnknown = new FormUnknown();
+            DASHBORAD formUnknown = new DASHBORAD();
             formUnknown.Show();
             this.Hide();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

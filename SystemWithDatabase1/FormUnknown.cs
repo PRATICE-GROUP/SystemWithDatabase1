@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SystemWithDatabase1
 {
-    public partial class FormUnknown : Form
+    public partial class DASHBORAD : Form
     {
-        public FormUnknown()
+        public DASHBORAD()
         {
             InitializeComponent();
         }

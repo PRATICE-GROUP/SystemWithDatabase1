@@ -1,6 +1,6 @@
 ﻿namespace SystemWithDatabase1
 {
-    partial class FormUnknown
+    partial class DASHBORAD
     {
         /// <summary>
         /// Required designer variable.
@@ -33,21 +33,22 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(482, 66);
+            this.button1.Location = new System.Drawing.Point(720, 399);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(320, 388);
+            this.button1.Size = new System.Drawing.Size(68, 39);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "BACK";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // FormUnknown
+            // DASHBORAD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Name = "FormUnknown";
+            this.Name = "DASHBORAD";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormUnknown";
             this.ResumeLayout(false);
 
