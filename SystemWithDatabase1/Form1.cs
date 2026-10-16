@@ -19,15 +19,12 @@ namespace SystemWithDatabase1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            try
-            {
-                Database db = new Database();
-                label1.ForeColor = Color.Green;
-            }
-            catch
-            {
-                label1.ForeColor = Color.Red;
-            }
+            LoginUC login = new LoginUC();
+            login.Dock = DockStyle.Fill;
+
+            mainPanel.Controls.Clear();
+            mainPanel.Controls.Add(login);
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -37,9 +34,9 @@ namespace SystemWithDatabase1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DASHBORAD formUnknown = new DASHBORAD();
-            formUnknown.Show();
-            this.Hide();
+            //DASHBORAD formUnknown = new DASHBORAD();
+            //formUnknown.Show();
+            //this.Hide();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
