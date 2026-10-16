@@ -16,5 +16,15 @@ namespace SystemWithDatabase1
         {
             InitializeComponent();
         }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void DashboardUC_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

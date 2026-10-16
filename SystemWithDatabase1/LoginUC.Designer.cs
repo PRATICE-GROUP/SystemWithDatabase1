@@ -40,7 +40,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(420, 176);
+            this.label2.Location = new System.Drawing.Point(494, 294);
             this.label2.Margin = new System.Windows.Forms.Padding(11, 0, 11, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(200, 24);
@@ -49,7 +49,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(319, 340);
+            this.txtPassword.Location = new System.Drawing.Point(393, 458);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(456, 29);
@@ -57,7 +57,7 @@
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(319, 284);
+            this.txtUsername.Location = new System.Drawing.Point(393, 402);
             this.txtUsername.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(456, 29);
@@ -66,7 +66,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(210, 284);
+            this.label4.Location = new System.Drawing.Point(284, 402);
             this.label4.Margin = new System.Windows.Forms.Padding(11, 0, 11, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(97, 24);
@@ -76,7 +76,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(210, 340);
+            this.label3.Location = new System.Drawing.Point(284, 458);
             this.label3.Margin = new System.Windows.Forms.Padding(11, 0, 11, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 24);
@@ -85,7 +85,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(424, 440);
+            this.button1.Location = new System.Drawing.Point(498, 558);
             this.button1.Margin = new System.Windows.Forms.Padding(11, 11, 11, 11);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(193, 90);
@@ -107,7 +107,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "LoginUC";
-            this.Size = new System.Drawing.Size(1011, 818);
+            this.Size = new System.Drawing.Size(1207, 894);
             this.ResumeLayout(false);
             this.PerformLayout();
 
