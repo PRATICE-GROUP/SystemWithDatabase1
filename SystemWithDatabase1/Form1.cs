@@ -17,13 +17,21 @@ namespace SystemWithDatabase1
             InitializeComponent();
         }
 
+        public void OpenPage(UserControl uc)
+        {
+            mainPanel.Controls.Clear();
+
+            uc.Dock = DockStyle.Fill;
+
+            mainPanel.Controls.Add(uc);
+        }
+
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            LoginUC login = new LoginUC();
-            login.Dock = DockStyle.Fill;
 
-            mainPanel.Controls.Clear();
-            mainPanel.Controls.Add(login);
+            OpenPage(new LoginUC());
 
         }
 

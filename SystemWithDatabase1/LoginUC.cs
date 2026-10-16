@@ -19,7 +19,9 @@ namespace SystemWithDatabase1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Form1 main = (Form1)this.FindForm();
 
+            main.OpenPage(new DashboardUC());
         }
     }
 }
