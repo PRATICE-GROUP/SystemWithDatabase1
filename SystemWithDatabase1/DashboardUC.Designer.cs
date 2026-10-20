@@ -31,57 +31,57 @@
             this.mainContentPanel = new System.Windows.Forms.Panel();
             this.dashboardLayoutTable = new System.Windows.Forms.TableLayoutPanel();
             this.welcomeHeaderPanel = new System.Windows.Forms.Panel();
-            this.welcomeKickerLabel = new System.Windows.Forms.Label();
-            this.welcomeTitleLabel = new System.Windows.Forms.Label();
-            this.welcomeSubtitleLabel = new System.Windows.Forms.Label();
             this.welcomeContextLabel = new System.Windows.Forms.Label();
+            this.welcomeSubtitleLabel = new System.Windows.Forms.Label();
+            this.welcomeTitleLabel = new System.Windows.Forms.Label();
+            this.welcomeKickerLabel = new System.Windows.Forms.Label();
             this.statisticsSectionLayout = new System.Windows.Forms.TableLayoutPanel();
             this.statisticsHeaderPanel = new System.Windows.Forms.Panel();
-            this.statisticsTitleLabel = new System.Windows.Forms.Label();
             this.statisticsSubtitleLabel = new System.Windows.Forms.Label();
+            this.statisticsTitleLabel = new System.Windows.Forms.Label();
             this.statisticsCardsLayout = new System.Windows.Forms.TableLayoutPanel();
             this.moviesCardPanel = new System.Windows.Forms.Panel();
-            this.moviesCardTitleLabel = new System.Windows.Forms.Label();
-            this.moviesCardValueLabel = new System.Windows.Forms.Label();
             this.moviesCardNoteLabel = new System.Windows.Forms.Label();
+            this.moviesCardValueLabel = new System.Windows.Forms.Label();
+            this.moviesCardTitleLabel = new System.Windows.Forms.Label();
             this.bookingsCardPanel = new System.Windows.Forms.Panel();
-            this.bookingsCardTitleLabel = new System.Windows.Forms.Label();
-            this.bookingsCardValueLabel = new System.Windows.Forms.Label();
             this.bookingsCardNoteLabel = new System.Windows.Forms.Label();
+            this.bookingsCardValueLabel = new System.Windows.Forms.Label();
+            this.bookingsCardTitleLabel = new System.Windows.Forms.Label();
             this.screensCardPanel = new System.Windows.Forms.Panel();
-            this.screensCardTitleLabel = new System.Windows.Forms.Label();
-            this.screensCardValueLabel = new System.Windows.Forms.Label();
             this.screensCardNoteLabel = new System.Windows.Forms.Label();
+            this.screensCardValueLabel = new System.Windows.Forms.Label();
+            this.screensCardTitleLabel = new System.Windows.Forms.Label();
             this.revenueCardPanel = new System.Windows.Forms.Panel();
-            this.revenueCardTitleLabel = new System.Windows.Forms.Label();
-            this.revenueCardValueLabel = new System.Windows.Forms.Label();
             this.revenueCardNoteLabel = new System.Windows.Forms.Label();
+            this.revenueCardValueLabel = new System.Windows.Forms.Label();
+            this.revenueCardTitleLabel = new System.Windows.Forms.Label();
             this.lowerDashboardLayout = new System.Windows.Forms.TableLayoutPanel();
             this.recentActivityPanel = new System.Windows.Forms.Panel();
             this.recentActivityLayout = new System.Windows.Forms.TableLayoutPanel();
             this.recentActivityHeaderPanel = new System.Windows.Forms.Panel();
-            this.recentActivityTitleLabel = new System.Windows.Forms.Label();
             this.recentActivitySubtitleLabel = new System.Windows.Forms.Label();
+            this.recentActivityTitleLabel = new System.Windows.Forms.Label();
             this.activityItem1Panel = new System.Windows.Forms.Panel();
-            this.activityItem1TitleLabel = new System.Windows.Forms.Label();
-            this.activityItem1DetailLabel = new System.Windows.Forms.Label();
             this.activityItem1Divider = new System.Windows.Forms.Panel();
+            this.activityItem1DetailLabel = new System.Windows.Forms.Label();
+            this.activityItem1TitleLabel = new System.Windows.Forms.Label();
             this.activityItem2Panel = new System.Windows.Forms.Panel();
-            this.activityItem2TitleLabel = new System.Windows.Forms.Label();
-            this.activityItem2DetailLabel = new System.Windows.Forms.Label();
             this.activityItem2Divider = new System.Windows.Forms.Panel();
+            this.activityItem2DetailLabel = new System.Windows.Forms.Label();
+            this.activityItem2TitleLabel = new System.Windows.Forms.Label();
             this.activityItem3Panel = new System.Windows.Forms.Panel();
-            this.activityItem3TitleLabel = new System.Windows.Forms.Label();
-            this.activityItem3DetailLabel = new System.Windows.Forms.Label();
             this.activityItem3Divider = new System.Windows.Forms.Panel();
+            this.activityItem3DetailLabel = new System.Windows.Forms.Label();
+            this.activityItem3TitleLabel = new System.Windows.Forms.Label();
             this.activityItem4Panel = new System.Windows.Forms.Panel();
-            this.activityItem4TitleLabel = new System.Windows.Forms.Label();
             this.activityItem4DetailLabel = new System.Windows.Forms.Label();
+            this.activityItem4TitleLabel = new System.Windows.Forms.Label();
             this.quickActionsPanel = new System.Windows.Forms.Panel();
             this.quickActionsLayout = new System.Windows.Forms.TableLayoutPanel();
             this.quickActionsHeaderPanel = new System.Windows.Forms.Panel();
-            this.quickActionsTitleLabel = new System.Windows.Forms.Label();
             this.quickActionsSubtitleLabel = new System.Windows.Forms.Label();
+            this.quickActionsTitleLabel = new System.Windows.Forms.Label();
             this.quickActionButtonsLayout = new System.Windows.Forms.TableLayoutPanel();
             this.addMovieButton = new System.Windows.Forms.Button();
             this.scheduleScreeningButton = new System.Windows.Forms.Button();
@@ -103,6 +103,25 @@
             this.mainContentPanel.SuspendLayout();
             this.dashboardLayoutTable.SuspendLayout();
             this.welcomeHeaderPanel.SuspendLayout();
+            this.statisticsSectionLayout.SuspendLayout();
+            this.statisticsHeaderPanel.SuspendLayout();
+            this.statisticsCardsLayout.SuspendLayout();
+            this.moviesCardPanel.SuspendLayout();
+            this.bookingsCardPanel.SuspendLayout();
+            this.screensCardPanel.SuspendLayout();
+            this.revenueCardPanel.SuspendLayout();
+            this.lowerDashboardLayout.SuspendLayout();
+            this.recentActivityPanel.SuspendLayout();
+            this.recentActivityLayout.SuspendLayout();
+            this.recentActivityHeaderPanel.SuspendLayout();
+            this.activityItem1Panel.SuspendLayout();
+            this.activityItem2Panel.SuspendLayout();
+            this.activityItem3Panel.SuspendLayout();
+            this.activityItem4Panel.SuspendLayout();
+            this.quickActionsPanel.SuspendLayout();
+            this.quickActionsLayout.SuspendLayout();
+            this.quickActionsHeaderPanel.SuspendLayout();
+            this.quickActionButtonsLayout.SuspendLayout();
             this.sideBarPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.profilePictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).BeginInit();
@@ -110,7 +129,7 @@
             // 
             // mainContentPanel
             // 
-            this.mainContentPanel.BackColor = System.Drawing.Color.FromArgb(245, 247, 250);
+            this.mainContentPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
             this.mainContentPanel.Controls.Add(this.dashboardLayoutTable);
             this.mainContentPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainContentPanel.Location = new System.Drawing.Point(258, 0);
@@ -120,7 +139,7 @@
             // 
             // dashboardLayoutTable
             // 
-            this.dashboardLayoutTable.BackColor = System.Drawing.Color.FromArgb(245, 247, 250);
+            this.dashboardLayoutTable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
             this.dashboardLayoutTable.ColumnCount = 1;
             this.dashboardLayoutTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.dashboardLayoutTable.Controls.Add(this.welcomeHeaderPanel, 0, 0);
@@ -146,59 +165,58 @@
             this.welcomeHeaderPanel.Controls.Add(this.welcomeKickerLabel);
             this.welcomeHeaderPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.welcomeHeaderPanel.Location = new System.Drawing.Point(35, 35);
-            this.welcomeHeaderPanel.Margin = new System.Windows.Forms.Padding(3);
             this.welcomeHeaderPanel.Name = "welcomeHeaderPanel";
             this.welcomeHeaderPanel.Size = new System.Drawing.Size(879, 90);
             this.welcomeHeaderPanel.TabIndex = 0;
-            // 
-            // welcomeKickerLabel
-            // 
-            this.welcomeKickerLabel.AutoSize = true;
-            this.welcomeKickerLabel.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcomeKickerLabel.ForeColor = System.Drawing.Color.FromArgb(59, 130, 246);
-            this.welcomeKickerLabel.Location = new System.Drawing.Point(0, 0);
-            this.welcomeKickerLabel.Name = "welcomeKickerLabel";
-            this.welcomeKickerLabel.Size = new System.Drawing.Size(109, 13);
-            this.welcomeKickerLabel.TabIndex = 0;
-            this.welcomeKickerLabel.Text = "CINEMA OVERVIEW";
-            // 
-            // welcomeTitleLabel
-            // 
-            this.welcomeTitleLabel.AutoSize = true;
-            this.welcomeTitleLabel.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcomeTitleLabel.ForeColor = System.Drawing.Color.FromArgb(15, 23, 42);
-            this.welcomeTitleLabel.Location = new System.Drawing.Point(-2, 17);
-            this.welcomeTitleLabel.Name = "welcomeTitleLabel";
-            this.welcomeTitleLabel.Size = new System.Drawing.Size(283, 41);
-            this.welcomeTitleLabel.TabIndex = 1;
-            this.welcomeTitleLabel.Text = "Good morning, Alex";
-            // 
-            // welcomeSubtitleLabel
-            // 
-            this.welcomeSubtitleLabel.AutoSize = true;
-            this.welcomeSubtitleLabel.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcomeSubtitleLabel.ForeColor = System.Drawing.Color.FromArgb(100, 116, 139);
-            this.welcomeSubtitleLabel.Location = new System.Drawing.Point(1, 63);
-            this.welcomeSubtitleLabel.Name = "welcomeSubtitleLabel";
-            this.welcomeSubtitleLabel.Size = new System.Drawing.Size(305, 19);
-            this.welcomeSubtitleLabel.TabIndex = 2;
-            this.welcomeSubtitleLabel.Text = "A clear view of today’s cinema operations.";
             // 
             // welcomeContextLabel
             // 
             this.welcomeContextLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.welcomeContextLabel.AutoSize = true;
             this.welcomeContextLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcomeContextLabel.ForeColor = System.Drawing.Color.FromArgb(100, 116, 139);
+            this.welcomeContextLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
             this.welcomeContextLabel.Location = new System.Drawing.Point(700, 38);
             this.welcomeContextLabel.Name = "welcomeContextLabel";
-            this.welcomeContextLabel.Size = new System.Drawing.Size(176, 15);
+            this.welcomeContextLabel.Size = new System.Drawing.Size(146, 15);
             this.welcomeContextLabel.TabIndex = 3;
             this.welcomeContextLabel.Text = "ALL LOCATIONS  ·  TODAY";
             // 
+            // welcomeSubtitleLabel
+            // 
+            this.welcomeSubtitleLabel.AutoSize = true;
+            this.welcomeSubtitleLabel.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcomeSubtitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
+            this.welcomeSubtitleLabel.Location = new System.Drawing.Point(1, 63);
+            this.welcomeSubtitleLabel.Name = "welcomeSubtitleLabel";
+            this.welcomeSubtitleLabel.Size = new System.Drawing.Size(264, 19);
+            this.welcomeSubtitleLabel.TabIndex = 2;
+            this.welcomeSubtitleLabel.Text = "A clear view of today’s cinema operations.";
+            // 
+            // welcomeTitleLabel
+            // 
+            this.welcomeTitleLabel.AutoSize = true;
+            this.welcomeTitleLabel.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcomeTitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
+            this.welcomeTitleLabel.Location = new System.Drawing.Point(-2, 17);
+            this.welcomeTitleLabel.Name = "welcomeTitleLabel";
+            this.welcomeTitleLabel.Size = new System.Drawing.Size(302, 41);
+            this.welcomeTitleLabel.TabIndex = 1;
+            this.welcomeTitleLabel.Text = "Good morning, Alex";
+            // 
+            // welcomeKickerLabel
+            // 
+            this.welcomeKickerLabel.AutoSize = true;
+            this.welcomeKickerLabel.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcomeKickerLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(130)))), ((int)(((byte)(246)))));
+            this.welcomeKickerLabel.Location = new System.Drawing.Point(0, 0);
+            this.welcomeKickerLabel.Name = "welcomeKickerLabel";
+            this.welcomeKickerLabel.Size = new System.Drawing.Size(109, 13);
+            this.welcomeKickerLabel.TabIndex = 0;
+            this.welcomeKickerLabel.Text = "CINEMA OVERVIEW";
+            // 
             // statisticsSectionLayout
             // 
-            this.statisticsSectionLayout.BackColor = System.Drawing.Color.FromArgb(245, 247, 250);
+            this.statisticsSectionLayout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
             this.statisticsSectionLayout.ColumnCount = 1;
             this.statisticsSectionLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.statisticsSectionLayout.Controls.Add(this.statisticsHeaderPanel, 0, 0);
@@ -223,27 +241,27 @@
             this.statisticsHeaderPanel.Size = new System.Drawing.Size(873, 46);
             this.statisticsHeaderPanel.TabIndex = 0;
             // 
-            // statisticsTitleLabel
-            // 
-            this.statisticsTitleLabel.AutoSize = true;
-            this.statisticsTitleLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.statisticsTitleLabel.ForeColor = System.Drawing.Color.FromArgb(15, 23, 42);
-            this.statisticsTitleLabel.Location = new System.Drawing.Point(0, 0);
-            this.statisticsTitleLabel.Name = "statisticsTitleLabel";
-            this.statisticsTitleLabel.Size = new System.Drawing.Size(163, 21);
-            this.statisticsTitleLabel.TabIndex = 0;
-            this.statisticsTitleLabel.Text = "Performance snapshot";
-            // 
             // statisticsSubtitleLabel
             // 
             this.statisticsSubtitleLabel.AutoSize = true;
             this.statisticsSubtitleLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.statisticsSubtitleLabel.ForeColor = System.Drawing.Color.FromArgb(100, 116, 139);
+            this.statisticsSubtitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
             this.statisticsSubtitleLabel.Location = new System.Drawing.Point(1, 26);
             this.statisticsSubtitleLabel.Name = "statisticsSubtitleLabel";
-            this.statisticsSubtitleLabel.Size = new System.Drawing.Size(213, 15);
+            this.statisticsSubtitleLabel.Size = new System.Drawing.Size(201, 15);
             this.statisticsSubtitleLabel.TabIndex = 1;
             this.statisticsSubtitleLabel.Text = "A quick look at today’s key numbers.";
+            // 
+            // statisticsTitleLabel
+            // 
+            this.statisticsTitleLabel.AutoSize = true;
+            this.statisticsTitleLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statisticsTitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
+            this.statisticsTitleLabel.Location = new System.Drawing.Point(0, 0);
+            this.statisticsTitleLabel.Name = "statisticsTitleLabel";
+            this.statisticsTitleLabel.Size = new System.Drawing.Size(181, 21);
+            this.statisticsTitleLabel.TabIndex = 0;
+            this.statisticsTitleLabel.Text = "Performance snapshot";
             // 
             // statisticsCardsLayout
             // 
@@ -278,38 +296,38 @@
             this.moviesCardPanel.Size = new System.Drawing.Size(206, 148);
             this.moviesCardPanel.TabIndex = 0;
             // 
-            // moviesCardTitleLabel
+            // moviesCardNoteLabel
             // 
-            this.moviesCardTitleLabel.AutoSize = true;
-            this.moviesCardTitleLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.moviesCardTitleLabel.ForeColor = System.Drawing.Color.FromArgb(100, 116, 139);
-            this.moviesCardTitleLabel.Location = new System.Drawing.Point(16, 16);
-            this.moviesCardTitleLabel.Name = "moviesCardTitleLabel";
-            this.moviesCardTitleLabel.Size = new System.Drawing.Size(105, 15);
-            this.moviesCardTitleLabel.TabIndex = 0;
-            this.moviesCardTitleLabel.Text = "Movies in catalog";
+            this.moviesCardNoteLabel.AutoSize = true;
+            this.moviesCardNoteLabel.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.moviesCardNoteLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.moviesCardNoteLabel.Location = new System.Drawing.Point(30, 113);
+            this.moviesCardNoteLabel.Name = "moviesCardNoteLabel";
+            this.moviesCardNoteLabel.Size = new System.Drawing.Size(118, 15);
+            this.moviesCardNoteLabel.TabIndex = 2;
+            this.moviesCardNoteLabel.Text = "+8 added this month";
             // 
             // moviesCardValueLabel
             // 
             this.moviesCardValueLabel.AutoSize = true;
             this.moviesCardValueLabel.Font = new System.Drawing.Font("Segoe UI", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.moviesCardValueLabel.ForeColor = System.Drawing.Color.FromArgb(15, 23, 42);
-            this.moviesCardValueLabel.Location = new System.Drawing.Point(14, 43);
+            this.moviesCardValueLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
+            this.moviesCardValueLabel.Location = new System.Drawing.Point(28, 57);
             this.moviesCardValueLabel.Name = "moviesCardValueLabel";
-            this.moviesCardValueLabel.Size = new System.Drawing.Size(58, 38);
+            this.moviesCardValueLabel.Size = new System.Drawing.Size(65, 38);
             this.moviesCardValueLabel.TabIndex = 1;
             this.moviesCardValueLabel.Text = "128";
             // 
-            // moviesCardNoteLabel
+            // moviesCardTitleLabel
             // 
-            this.moviesCardNoteLabel.AutoSize = true;
-            this.moviesCardNoteLabel.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.moviesCardNoteLabel.ForeColor = System.Drawing.Color.FromArgb(37, 99, 235);
-            this.moviesCardNoteLabel.Location = new System.Drawing.Point(16, 99);
-            this.moviesCardNoteLabel.Name = "moviesCardNoteLabel";
-            this.moviesCardNoteLabel.Size = new System.Drawing.Size(91, 15);
-            this.moviesCardNoteLabel.TabIndex = 2;
-            this.moviesCardNoteLabel.Text = "+8 added this month";
+            this.moviesCardTitleLabel.AutoSize = true;
+            this.moviesCardTitleLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.moviesCardTitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
+            this.moviesCardTitleLabel.Location = new System.Drawing.Point(30, 30);
+            this.moviesCardTitleLabel.Name = "moviesCardTitleLabel";
+            this.moviesCardTitleLabel.Size = new System.Drawing.Size(100, 15);
+            this.moviesCardTitleLabel.TabIndex = 0;
+            this.moviesCardTitleLabel.Text = "Movies in catalog";
             // 
             // bookingsCardPanel
             // 
@@ -325,38 +343,38 @@
             this.bookingsCardPanel.Size = new System.Drawing.Size(206, 148);
             this.bookingsCardPanel.TabIndex = 1;
             // 
-            // bookingsCardTitleLabel
+            // bookingsCardNoteLabel
             // 
-            this.bookingsCardTitleLabel.AutoSize = true;
-            this.bookingsCardTitleLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bookingsCardTitleLabel.ForeColor = System.Drawing.Color.FromArgb(100, 116, 139);
-            this.bookingsCardTitleLabel.Location = new System.Drawing.Point(16, 16);
-            this.bookingsCardTitleLabel.Name = "bookingsCardTitleLabel";
-            this.bookingsCardTitleLabel.Size = new System.Drawing.Size(99, 15);
-            this.bookingsCardTitleLabel.TabIndex = 0;
-            this.bookingsCardTitleLabel.Text = "Today’s bookings";
+            this.bookingsCardNoteLabel.AutoSize = true;
+            this.bookingsCardNoteLabel.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bookingsCardNoteLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(163)))), ((int)(((byte)(74)))));
+            this.bookingsCardNoteLabel.Location = new System.Drawing.Point(30, 113);
+            this.bookingsCardNoteLabel.Name = "bookingsCardNoteLabel";
+            this.bookingsCardNoteLabel.Size = new System.Drawing.Size(107, 15);
+            this.bookingsCardNoteLabel.TabIndex = 2;
+            this.bookingsCardNoteLabel.Text = "+12% vs. yesterday";
             // 
             // bookingsCardValueLabel
             // 
             this.bookingsCardValueLabel.AutoSize = true;
             this.bookingsCardValueLabel.Font = new System.Drawing.Font("Segoe UI", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bookingsCardValueLabel.ForeColor = System.Drawing.Color.FromArgb(15, 23, 42);
-            this.bookingsCardValueLabel.Location = new System.Drawing.Point(14, 43);
+            this.bookingsCardValueLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
+            this.bookingsCardValueLabel.Location = new System.Drawing.Point(28, 57);
             this.bookingsCardValueLabel.Name = "bookingsCardValueLabel";
-            this.bookingsCardValueLabel.Size = new System.Drawing.Size(59, 38);
+            this.bookingsCardValueLabel.Size = new System.Drawing.Size(65, 38);
             this.bookingsCardValueLabel.TabIndex = 1;
             this.bookingsCardValueLabel.Text = "246";
             // 
-            // bookingsCardNoteLabel
+            // bookingsCardTitleLabel
             // 
-            this.bookingsCardNoteLabel.AutoSize = true;
-            this.bookingsCardNoteLabel.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bookingsCardNoteLabel.ForeColor = System.Drawing.Color.FromArgb(22, 163, 74);
-            this.bookingsCardNoteLabel.Location = new System.Drawing.Point(16, 99);
-            this.bookingsCardNoteLabel.Name = "bookingsCardNoteLabel";
-            this.bookingsCardNoteLabel.Size = new System.Drawing.Size(109, 15);
-            this.bookingsCardNoteLabel.TabIndex = 2;
-            this.bookingsCardNoteLabel.Text = "+12% vs. yesterday";
+            this.bookingsCardTitleLabel.AutoSize = true;
+            this.bookingsCardTitleLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bookingsCardTitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
+            this.bookingsCardTitleLabel.Location = new System.Drawing.Point(30, 30);
+            this.bookingsCardTitleLabel.Name = "bookingsCardTitleLabel";
+            this.bookingsCardTitleLabel.Size = new System.Drawing.Size(99, 15);
+            this.bookingsCardTitleLabel.TabIndex = 0;
+            this.bookingsCardTitleLabel.Text = "Today’s bookings";
             // 
             // screensCardPanel
             // 
@@ -372,38 +390,38 @@
             this.screensCardPanel.Size = new System.Drawing.Size(206, 148);
             this.screensCardPanel.TabIndex = 2;
             // 
-            // screensCardTitleLabel
+            // screensCardNoteLabel
             // 
-            this.screensCardTitleLabel.AutoSize = true;
-            this.screensCardTitleLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.screensCardTitleLabel.ForeColor = System.Drawing.Color.FromArgb(100, 116, 139);
-            this.screensCardTitleLabel.Location = new System.Drawing.Point(16, 16);
-            this.screensCardTitleLabel.Name = "screensCardTitleLabel";
-            this.screensCardTitleLabel.Size = new System.Drawing.Size(83, 15);
-            this.screensCardTitleLabel.TabIndex = 0;
-            this.screensCardTitleLabel.Text = "Active screens";
+            this.screensCardNoteLabel.AutoSize = true;
+            this.screensCardNoteLabel.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.screensCardNoteLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
+            this.screensCardNoteLabel.Location = new System.Drawing.Point(30, 113);
+            this.screensCardNoteLabel.Name = "screensCardNoteLabel";
+            this.screensCardNoteLabel.Size = new System.Drawing.Size(102, 15);
+            this.screensCardNoteLabel.TabIndex = 2;
+            this.screensCardNoteLabel.Text = "All systems online";
             // 
             // screensCardValueLabel
             // 
             this.screensCardValueLabel.AutoSize = true;
             this.screensCardValueLabel.Font = new System.Drawing.Font("Segoe UI", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.screensCardValueLabel.ForeColor = System.Drawing.Color.FromArgb(15, 23, 42);
-            this.screensCardValueLabel.Location = new System.Drawing.Point(14, 43);
+            this.screensCardValueLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
+            this.screensCardValueLabel.Location = new System.Drawing.Point(28, 57);
             this.screensCardValueLabel.Name = "screensCardValueLabel";
-            this.screensCardValueLabel.Size = new System.Drawing.Size(47, 38);
+            this.screensCardValueLabel.Size = new System.Drawing.Size(33, 38);
             this.screensCardValueLabel.TabIndex = 1;
             this.screensCardValueLabel.Text = "8";
             // 
-            // screensCardNoteLabel
+            // screensCardTitleLabel
             // 
-            this.screensCardNoteLabel.AutoSize = true;
-            this.screensCardNoteLabel.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.screensCardNoteLabel.ForeColor = System.Drawing.Color.FromArgb(100, 116, 139);
-            this.screensCardNoteLabel.Location = new System.Drawing.Point(16, 99);
-            this.screensCardNoteLabel.Name = "screensCardNoteLabel";
-            this.screensCardNoteLabel.Size = new System.Drawing.Size(105, 15);
-            this.screensCardNoteLabel.TabIndex = 2;
-            this.screensCardNoteLabel.Text = "All systems online";
+            this.screensCardTitleLabel.AutoSize = true;
+            this.screensCardTitleLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.screensCardTitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
+            this.screensCardTitleLabel.Location = new System.Drawing.Point(30, 30);
+            this.screensCardTitleLabel.Name = "screensCardTitleLabel";
+            this.screensCardTitleLabel.Size = new System.Drawing.Size(82, 15);
+            this.screensCardTitleLabel.TabIndex = 0;
+            this.screensCardTitleLabel.Text = "Active screens";
             // 
             // revenueCardPanel
             // 
@@ -419,42 +437,42 @@
             this.revenueCardPanel.Size = new System.Drawing.Size(207, 148);
             this.revenueCardPanel.TabIndex = 3;
             // 
-            // revenueCardTitleLabel
+            // revenueCardNoteLabel
             // 
-            this.revenueCardTitleLabel.AutoSize = true;
-            this.revenueCardTitleLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.revenueCardTitleLabel.ForeColor = System.Drawing.Color.FromArgb(100, 116, 139);
-            this.revenueCardTitleLabel.Location = new System.Drawing.Point(16, 16);
-            this.revenueCardTitleLabel.Name = "revenueCardTitleLabel";
-            this.revenueCardTitleLabel.Size = new System.Drawing.Size(96, 15);
-            this.revenueCardTitleLabel.TabIndex = 0;
-            this.revenueCardTitleLabel.Text = "Monthly revenue";
+            this.revenueCardNoteLabel.AutoSize = true;
+            this.revenueCardNoteLabel.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.revenueCardNoteLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(163)))), ((int)(((byte)(74)))));
+            this.revenueCardNoteLabel.Location = new System.Drawing.Point(30, 113);
+            this.revenueCardNoteLabel.Name = "revenueCardNoteLabel";
+            this.revenueCardNoteLabel.Size = new System.Drawing.Size(101, 15);
+            this.revenueCardNoteLabel.TabIndex = 2;
+            this.revenueCardNoteLabel.Text = "+6.4% this month";
             // 
             // revenueCardValueLabel
             // 
             this.revenueCardValueLabel.AutoSize = true;
             this.revenueCardValueLabel.Font = new System.Drawing.Font("Segoe UI", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.revenueCardValueLabel.ForeColor = System.Drawing.Color.FromArgb(15, 23, 42);
-            this.revenueCardValueLabel.Location = new System.Drawing.Point(14, 43);
+            this.revenueCardValueLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
+            this.revenueCardValueLabel.Location = new System.Drawing.Point(28, 57);
             this.revenueCardValueLabel.Name = "revenueCardValueLabel";
-            this.revenueCardValueLabel.Size = new System.Drawing.Size(107, 38);
+            this.revenueCardValueLabel.Size = new System.Drawing.Size(105, 38);
             this.revenueCardValueLabel.TabIndex = 1;
             this.revenueCardValueLabel.Text = "$18.4k";
             // 
-            // revenueCardNoteLabel
+            // revenueCardTitleLabel
             // 
-            this.revenueCardNoteLabel.AutoSize = true;
-            this.revenueCardNoteLabel.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.revenueCardNoteLabel.ForeColor = System.Drawing.Color.FromArgb(22, 163, 74);
-            this.revenueCardNoteLabel.Location = new System.Drawing.Point(16, 99);
-            this.revenueCardNoteLabel.Name = "revenueCardNoteLabel";
-            this.revenueCardNoteLabel.Size = new System.Drawing.Size(93, 15);
-            this.revenueCardNoteLabel.TabIndex = 2;
-            this.revenueCardNoteLabel.Text = "+6.4% this month";
+            this.revenueCardTitleLabel.AutoSize = true;
+            this.revenueCardTitleLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.revenueCardTitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
+            this.revenueCardTitleLabel.Location = new System.Drawing.Point(30, 30);
+            this.revenueCardTitleLabel.Name = "revenueCardTitleLabel";
+            this.revenueCardTitleLabel.Size = new System.Drawing.Size(97, 15);
+            this.revenueCardTitleLabel.TabIndex = 0;
+            this.revenueCardTitleLabel.Text = "Monthly revenue";
             // 
             // lowerDashboardLayout
             // 
-            this.lowerDashboardLayout.BackColor = System.Drawing.Color.FromArgb(245, 247, 250);
+            this.lowerDashboardLayout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
             this.lowerDashboardLayout.ColumnCount = 2;
             this.lowerDashboardLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 64F));
             this.lowerDashboardLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36F));
@@ -473,7 +491,7 @@
             this.recentActivityPanel.BackColor = System.Drawing.Color.White;
             this.recentActivityPanel.Controls.Add(this.recentActivityLayout);
             this.recentActivityPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.recentActivityPanel.Location = new System.Drawing.Point(3, 3);
+            this.recentActivityPanel.Location = new System.Drawing.Point(0, 0);
             this.recentActivityPanel.Margin = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.recentActivityPanel.Name = "recentActivityPanel";
             this.recentActivityPanel.Size = new System.Drawing.Size(550, 508);
@@ -512,27 +530,27 @@
             this.recentActivityHeaderPanel.Size = new System.Drawing.Size(504, 64);
             this.recentActivityHeaderPanel.TabIndex = 0;
             // 
-            // recentActivityTitleLabel
-            // 
-            this.recentActivityTitleLabel.AutoSize = true;
-            this.recentActivityTitleLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.recentActivityTitleLabel.ForeColor = System.Drawing.Color.FromArgb(15, 23, 42);
-            this.recentActivityTitleLabel.Location = new System.Drawing.Point(0, 0);
-            this.recentActivityTitleLabel.Name = "recentActivityTitleLabel";
-            this.recentActivityTitleLabel.Size = new System.Drawing.Size(122, 21);
-            this.recentActivityTitleLabel.TabIndex = 0;
-            this.recentActivityTitleLabel.Text = "Recent activity";
-            // 
             // recentActivitySubtitleLabel
             // 
             this.recentActivitySubtitleLabel.AutoSize = true;
             this.recentActivitySubtitleLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.recentActivitySubtitleLabel.ForeColor = System.Drawing.Color.FromArgb(100, 116, 139);
+            this.recentActivitySubtitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
             this.recentActivitySubtitleLabel.Location = new System.Drawing.Point(1, 28);
             this.recentActivitySubtitleLabel.Name = "recentActivitySubtitleLabel";
-            this.recentActivitySubtitleLabel.Size = new System.Drawing.Size(211, 15);
+            this.recentActivitySubtitleLabel.Size = new System.Drawing.Size(191, 15);
             this.recentActivitySubtitleLabel.TabIndex = 1;
             this.recentActivitySubtitleLabel.Text = "Latest updates across your cinema.";
+            // 
+            // recentActivityTitleLabel
+            // 
+            this.recentActivityTitleLabel.AutoSize = true;
+            this.recentActivityTitleLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recentActivityTitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
+            this.recentActivityTitleLabel.Location = new System.Drawing.Point(0, 0);
+            this.recentActivityTitleLabel.Name = "recentActivityTitleLabel";
+            this.recentActivityTitleLabel.Size = new System.Drawing.Size(123, 21);
+            this.recentActivityTitleLabel.TabIndex = 0;
+            this.recentActivityTitleLabel.Text = "Recent activity";
             // 
             // activityItem1Panel
             // 
@@ -543,39 +561,39 @@
             this.activityItem1Panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.activityItem1Panel.Location = new System.Drawing.Point(23, 91);
             this.activityItem1Panel.Name = "activityItem1Panel";
-            this.activityItem1Panel.Size = new System.Drawing.Size(504, 88);
+            this.activityItem1Panel.Size = new System.Drawing.Size(504, 95);
             this.activityItem1Panel.TabIndex = 1;
             // 
-            // activityItem1TitleLabel
+            // activityItem1Divider
             // 
-            this.activityItem1TitleLabel.AutoSize = true;
-            this.activityItem1TitleLabel.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.activityItem1TitleLabel.ForeColor = System.Drawing.Color.FromArgb(30, 41, 59);
-            this.activityItem1TitleLabel.Location = new System.Drawing.Point(0, 19);
-            this.activityItem1TitleLabel.Name = "activityItem1TitleLabel";
-            this.activityItem1TitleLabel.Size = new System.Drawing.Size(164, 17);
-            this.activityItem1TitleLabel.TabIndex = 0;
-            this.activityItem1TitleLabel.Text = "New movie added to catalog";
+            this.activityItem1Divider.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
+            this.activityItem1Divider.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.activityItem1Divider.Location = new System.Drawing.Point(0, 94);
+            this.activityItem1Divider.Name = "activityItem1Divider";
+            this.activityItem1Divider.Size = new System.Drawing.Size(504, 1);
+            this.activityItem1Divider.TabIndex = 2;
             // 
             // activityItem1DetailLabel
             // 
             this.activityItem1DetailLabel.AutoSize = true;
             this.activityItem1DetailLabel.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.activityItem1DetailLabel.ForeColor = System.Drawing.Color.FromArgb(100, 116, 139);
+            this.activityItem1DetailLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
             this.activityItem1DetailLabel.Location = new System.Drawing.Point(1, 43);
             this.activityItem1DetailLabel.Name = "activityItem1DetailLabel";
-            this.activityItem1DetailLabel.Size = new System.Drawing.Size(183, 15);
+            this.activityItem1DetailLabel.Size = new System.Drawing.Size(211, 15);
             this.activityItem1DetailLabel.TabIndex = 1;
             this.activityItem1DetailLabel.Text = "Northbound  ·  Added today, 10:42 AM";
             // 
-            // activityItem1Divider
+            // activityItem1TitleLabel
             // 
-            this.activityItem1Divider.BackColor = System.Drawing.Color.FromArgb(226, 232, 240);
-            this.activityItem1Divider.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.activityItem1Divider.Location = new System.Drawing.Point(0, 87);
-            this.activityItem1Divider.Name = "activityItem1Divider";
-            this.activityItem1Divider.Size = new System.Drawing.Size(504, 1);
-            this.activityItem1Divider.TabIndex = 2;
+            this.activityItem1TitleLabel.AutoSize = true;
+            this.activityItem1TitleLabel.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.activityItem1TitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
+            this.activityItem1TitleLabel.Location = new System.Drawing.Point(0, 19);
+            this.activityItem1TitleLabel.Name = "activityItem1TitleLabel";
+            this.activityItem1TitleLabel.Size = new System.Drawing.Size(185, 17);
+            this.activityItem1TitleLabel.TabIndex = 0;
+            this.activityItem1TitleLabel.Text = "New movie added to catalog";
             // 
             // activityItem2Panel
             // 
@@ -584,41 +602,41 @@
             this.activityItem2Panel.Controls.Add(this.activityItem2DetailLabel);
             this.activityItem2Panel.Controls.Add(this.activityItem2TitleLabel);
             this.activityItem2Panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.activityItem2Panel.Location = new System.Drawing.Point(23, 185);
+            this.activityItem2Panel.Location = new System.Drawing.Point(23, 192);
             this.activityItem2Panel.Name = "activityItem2Panel";
-            this.activityItem2Panel.Size = new System.Drawing.Size(504, 88);
+            this.activityItem2Panel.Size = new System.Drawing.Size(504, 95);
             this.activityItem2Panel.TabIndex = 2;
             // 
-            // activityItem2TitleLabel
+            // activityItem2Divider
             // 
-            this.activityItem2TitleLabel.AutoSize = true;
-            this.activityItem2TitleLabel.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.activityItem2TitleLabel.ForeColor = System.Drawing.Color.FromArgb(30, 41, 59);
-            this.activityItem2TitleLabel.Location = new System.Drawing.Point(0, 19);
-            this.activityItem2TitleLabel.Name = "activityItem2TitleLabel";
-            this.activityItem2TitleLabel.Size = new System.Drawing.Size(173, 17);
-            this.activityItem2TitleLabel.TabIndex = 0;
-            this.activityItem2TitleLabel.Text = "Screening schedule updated";
+            this.activityItem2Divider.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
+            this.activityItem2Divider.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.activityItem2Divider.Location = new System.Drawing.Point(0, 94);
+            this.activityItem2Divider.Name = "activityItem2Divider";
+            this.activityItem2Divider.Size = new System.Drawing.Size(504, 1);
+            this.activityItem2Divider.TabIndex = 2;
             // 
             // activityItem2DetailLabel
             // 
             this.activityItem2DetailLabel.AutoSize = true;
             this.activityItem2DetailLabel.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.activityItem2DetailLabel.ForeColor = System.Drawing.Color.FromArgb(100, 116, 139);
+            this.activityItem2DetailLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
             this.activityItem2DetailLabel.Location = new System.Drawing.Point(1, 43);
             this.activityItem2DetailLabel.Name = "activityItem2DetailLabel";
-            this.activityItem2DetailLabel.Size = new System.Drawing.Size(139, 15);
+            this.activityItem2DetailLabel.Size = new System.Drawing.Size(176, 15);
             this.activityItem2DetailLabel.TabIndex = 1;
             this.activityItem2DetailLabel.Text = "Auditorium 04  ·  Updated today";
             // 
-            // activityItem2Divider
+            // activityItem2TitleLabel
             // 
-            this.activityItem2Divider.BackColor = System.Drawing.Color.FromArgb(226, 232, 240);
-            this.activityItem2Divider.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.activityItem2Divider.Location = new System.Drawing.Point(0, 87);
-            this.activityItem2Divider.Name = "activityItem2Divider";
-            this.activityItem2Divider.Size = new System.Drawing.Size(504, 1);
-            this.activityItem2Divider.TabIndex = 2;
+            this.activityItem2TitleLabel.AutoSize = true;
+            this.activityItem2TitleLabel.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.activityItem2TitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
+            this.activityItem2TitleLabel.Location = new System.Drawing.Point(0, 19);
+            this.activityItem2TitleLabel.Name = "activityItem2TitleLabel";
+            this.activityItem2TitleLabel.Size = new System.Drawing.Size(181, 17);
+            this.activityItem2TitleLabel.TabIndex = 0;
+            this.activityItem2TitleLabel.Text = "Screening schedule updated";
             // 
             // activityItem3Panel
             // 
@@ -627,41 +645,41 @@
             this.activityItem3Panel.Controls.Add(this.activityItem3DetailLabel);
             this.activityItem3Panel.Controls.Add(this.activityItem3TitleLabel);
             this.activityItem3Panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.activityItem3Panel.Location = new System.Drawing.Point(23, 279);
+            this.activityItem3Panel.Location = new System.Drawing.Point(23, 293);
             this.activityItem3Panel.Name = "activityItem3Panel";
-            this.activityItem3Panel.Size = new System.Drawing.Size(504, 88);
+            this.activityItem3Panel.Size = new System.Drawing.Size(504, 95);
             this.activityItem3Panel.TabIndex = 3;
             // 
-            // activityItem3TitleLabel
+            // activityItem3Divider
             // 
-            this.activityItem3TitleLabel.AutoSize = true;
-            this.activityItem3TitleLabel.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.activityItem3TitleLabel.ForeColor = System.Drawing.Color.FromArgb(30, 41, 59);
-            this.activityItem3TitleLabel.Location = new System.Drawing.Point(0, 19);
-            this.activityItem3TitleLabel.Name = "activityItem3TitleLabel";
-            this.activityItem3TitleLabel.Size = new System.Drawing.Size(125, 17);
-            this.activityItem3TitleLabel.TabIndex = 0;
-            this.activityItem3TitleLabel.Text = "Booking completed";
+            this.activityItem3Divider.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
+            this.activityItem3Divider.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.activityItem3Divider.Location = new System.Drawing.Point(0, 94);
+            this.activityItem3Divider.Name = "activityItem3Divider";
+            this.activityItem3Divider.Size = new System.Drawing.Size(504, 1);
+            this.activityItem3Divider.TabIndex = 2;
             // 
             // activityItem3DetailLabel
             // 
             this.activityItem3DetailLabel.AutoSize = true;
             this.activityItem3DetailLabel.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.activityItem3DetailLabel.ForeColor = System.Drawing.Color.FromArgb(100, 116, 139);
+            this.activityItem3DetailLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
             this.activityItem3DetailLabel.Location = new System.Drawing.Point(1, 43);
             this.activityItem3DetailLabel.Name = "activityItem3DetailLabel";
-            this.activityItem3DetailLabel.Size = new System.Drawing.Size(140, 15);
+            this.activityItem3DetailLabel.Size = new System.Drawing.Size(163, 15);
             this.activityItem3DetailLabel.TabIndex = 1;
             this.activityItem3DetailLabel.Text = "12 tickets  ·  Completed today";
             // 
-            // activityItem3Divider
+            // activityItem3TitleLabel
             // 
-            this.activityItem3Divider.BackColor = System.Drawing.Color.FromArgb(226, 232, 240);
-            this.activityItem3Divider.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.activityItem3Divider.Location = new System.Drawing.Point(0, 87);
-            this.activityItem3Divider.Name = "activityItem3Divider";
-            this.activityItem3Divider.Size = new System.Drawing.Size(504, 1);
-            this.activityItem3Divider.TabIndex = 2;
+            this.activityItem3TitleLabel.AutoSize = true;
+            this.activityItem3TitleLabel.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.activityItem3TitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
+            this.activityItem3TitleLabel.Location = new System.Drawing.Point(0, 19);
+            this.activityItem3TitleLabel.Name = "activityItem3TitleLabel";
+            this.activityItem3TitleLabel.Size = new System.Drawing.Size(128, 17);
+            this.activityItem3TitleLabel.TabIndex = 0;
+            this.activityItem3TitleLabel.Text = "Booking completed";
             // 
             // activityItem4Panel
             // 
@@ -669,42 +687,42 @@
             this.activityItem4Panel.Controls.Add(this.activityItem4DetailLabel);
             this.activityItem4Panel.Controls.Add(this.activityItem4TitleLabel);
             this.activityItem4Panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.activityItem4Panel.Location = new System.Drawing.Point(23, 373);
+            this.activityItem4Panel.Location = new System.Drawing.Point(23, 394);
             this.activityItem4Panel.Name = "activityItem4Panel";
-            this.activityItem4Panel.Size = new System.Drawing.Size(504, 91);
+            this.activityItem4Panel.Size = new System.Drawing.Size(504, 95);
             this.activityItem4Panel.TabIndex = 4;
-            // 
-            // activityItem4TitleLabel
-            // 
-            this.activityItem4TitleLabel.AutoSize = true;
-            this.activityItem4TitleLabel.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.activityItem4TitleLabel.ForeColor = System.Drawing.Color.FromArgb(30, 41, 59);
-            this.activityItem4TitleLabel.Location = new System.Drawing.Point(0, 19);
-            this.activityItem4TitleLabel.Name = "activityItem4TitleLabel";
-            this.activityItem4TitleLabel.Size = new System.Drawing.Size(170, 17);
-            this.activityItem4TitleLabel.TabIndex = 0;
-            this.activityItem4TitleLabel.Text = "Concession stock reviewed";
             // 
             // activityItem4DetailLabel
             // 
             this.activityItem4DetailLabel.AutoSize = true;
             this.activityItem4DetailLabel.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.activityItem4DetailLabel.ForeColor = System.Drawing.Color.FromArgb(100, 116, 139);
+            this.activityItem4DetailLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
             this.activityItem4DetailLabel.Location = new System.Drawing.Point(1, 43);
             this.activityItem4DetailLabel.Name = "activityItem4DetailLabel";
-            this.activityItem4DetailLabel.Size = new System.Drawing.Size(134, 15);
+            this.activityItem4DetailLabel.Size = new System.Drawing.Size(122, 15);
             this.activityItem4DetailLabel.TabIndex = 1;
             this.activityItem4DetailLabel.Text = "Inventory  ·  Yesterday";
+            // 
+            // activityItem4TitleLabel
+            // 
+            this.activityItem4TitleLabel.AutoSize = true;
+            this.activityItem4TitleLabel.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.activityItem4TitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
+            this.activityItem4TitleLabel.Location = new System.Drawing.Point(0, 19);
+            this.activityItem4TitleLabel.Name = "activityItem4TitleLabel";
+            this.activityItem4TitleLabel.Size = new System.Drawing.Size(172, 17);
+            this.activityItem4TitleLabel.TabIndex = 0;
+            this.activityItem4TitleLabel.Text = "Concession stock reviewed";
             // 
             // quickActionsPanel
             // 
             this.quickActionsPanel.BackColor = System.Drawing.Color.White;
             this.quickActionsPanel.Controls.Add(this.quickActionsLayout);
             this.quickActionsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.quickActionsPanel.Location = new System.Drawing.Point(565, 3);
+            this.quickActionsPanel.Location = new System.Drawing.Point(574, 0);
             this.quickActionsPanel.Margin = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.quickActionsPanel.Name = "quickActionsPanel";
-            this.quickActionsPanel.Size = new System.Drawing.Size(314, 508);
+            this.quickActionsPanel.Size = new System.Drawing.Size(305, 508);
             this.quickActionsPanel.TabIndex = 1;
             // 
             // quickActionsLayout
@@ -720,7 +738,7 @@
             this.quickActionsLayout.RowCount = 2;
             this.quickActionsLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70F));
             this.quickActionsLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.quickActionsLayout.Size = new System.Drawing.Size(314, 508);
+            this.quickActionsLayout.Size = new System.Drawing.Size(305, 508);
             this.quickActionsLayout.TabIndex = 0;
             // 
             // quickActionsHeaderPanel
@@ -731,30 +749,30 @@
             this.quickActionsHeaderPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.quickActionsHeaderPanel.Location = new System.Drawing.Point(23, 21);
             this.quickActionsHeaderPanel.Name = "quickActionsHeaderPanel";
-            this.quickActionsHeaderPanel.Size = new System.Drawing.Size(268, 64);
+            this.quickActionsHeaderPanel.Size = new System.Drawing.Size(259, 64);
             this.quickActionsHeaderPanel.TabIndex = 0;
-            // 
-            // quickActionsTitleLabel
-            // 
-            this.quickActionsTitleLabel.AutoSize = true;
-            this.quickActionsTitleLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quickActionsTitleLabel.ForeColor = System.Drawing.Color.FromArgb(15, 23, 42);
-            this.quickActionsTitleLabel.Location = new System.Drawing.Point(0, 0);
-            this.quickActionsTitleLabel.Name = "quickActionsTitleLabel";
-            this.quickActionsTitleLabel.Size = new System.Drawing.Size(104, 21);
-            this.quickActionsTitleLabel.TabIndex = 0;
-            this.quickActionsTitleLabel.Text = "Quick actions";
             // 
             // quickActionsSubtitleLabel
             // 
             this.quickActionsSubtitleLabel.AutoSize = true;
             this.quickActionsSubtitleLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quickActionsSubtitleLabel.ForeColor = System.Drawing.Color.FromArgb(100, 116, 139);
+            this.quickActionsSubtitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
             this.quickActionsSubtitleLabel.Location = new System.Drawing.Point(1, 28);
             this.quickActionsSubtitleLabel.Name = "quickActionsSubtitleLabel";
-            this.quickActionsSubtitleLabel.Size = new System.Drawing.Size(167, 15);
+            this.quickActionsSubtitleLabel.Size = new System.Drawing.Size(173, 15);
             this.quickActionsSubtitleLabel.TabIndex = 1;
             this.quickActionsSubtitleLabel.Text = "Common tasks, one click away.";
+            // 
+            // quickActionsTitleLabel
+            // 
+            this.quickActionsTitleLabel.AutoSize = true;
+            this.quickActionsTitleLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quickActionsTitleLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
+            this.quickActionsTitleLabel.Location = new System.Drawing.Point(0, 0);
+            this.quickActionsTitleLabel.Name = "quickActionsTitleLabel";
+            this.quickActionsTitleLabel.Size = new System.Drawing.Size(113, 21);
+            this.quickActionsTitleLabel.TabIndex = 0;
+            this.quickActionsTitleLabel.Text = "Quick actions";
             // 
             // quickActionButtonsLayout
             // 
@@ -770,23 +788,24 @@
             this.quickActionButtonsLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 54F));
             this.quickActionButtonsLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 54F));
             this.quickActionButtonsLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 54F));
-            this.quickActionButtonsLayout.Size = new System.Drawing.Size(268, 394);
+            this.quickActionButtonsLayout.Size = new System.Drawing.Size(259, 394);
             this.quickActionButtonsLayout.TabIndex = 1;
             // 
             // addMovieButton
             // 
-            this.addMovieButton.BackColor = System.Drawing.Color.FromArgb(239, 246, 255);
+            this.addMovieButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
             this.addMovieButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.addMovieButton.FlatAppearance.BorderSize = 0;
-            this.addMovieButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(219, 234, 254);
-            this.addMovieButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(219, 234, 254);
+            this.addMovieButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
+            this.addMovieButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.addMovieButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addMovieButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addMovieButton.ForeColor = System.Drawing.Color.FromArgb(37, 99, 235);
+            this.addMovieButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.addMovieButton.Location = new System.Drawing.Point(0, 4);
             this.addMovieButton.Margin = new System.Windows.Forms.Padding(0, 4, 0, 6);
             this.addMovieButton.Name = "addMovieButton";
             this.addMovieButton.Padding = new System.Windows.Forms.Padding(14, 0, 0, 0);
-            this.addMovieButton.Size = new System.Drawing.Size(268, 44);
+            this.addMovieButton.Size = new System.Drawing.Size(259, 44);
             this.addMovieButton.TabIndex = 0;
             this.addMovieButton.Text = "Add a movie";
             this.addMovieButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -794,18 +813,19 @@
             // 
             // scheduleScreeningButton
             // 
-            this.scheduleScreeningButton.BackColor = System.Drawing.Color.FromArgb(239, 246, 255);
+            this.scheduleScreeningButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
             this.scheduleScreeningButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.scheduleScreeningButton.FlatAppearance.BorderSize = 0;
-            this.scheduleScreeningButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(219, 234, 254);
-            this.scheduleScreeningButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(219, 234, 254);
+            this.scheduleScreeningButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
+            this.scheduleScreeningButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.scheduleScreeningButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.scheduleScreeningButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scheduleScreeningButton.ForeColor = System.Drawing.Color.FromArgb(37, 99, 235);
+            this.scheduleScreeningButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.scheduleScreeningButton.Location = new System.Drawing.Point(0, 58);
             this.scheduleScreeningButton.Margin = new System.Windows.Forms.Padding(0, 4, 0, 6);
             this.scheduleScreeningButton.Name = "scheduleScreeningButton";
             this.scheduleScreeningButton.Padding = new System.Windows.Forms.Padding(14, 0, 0, 0);
-            this.scheduleScreeningButton.Size = new System.Drawing.Size(268, 44);
+            this.scheduleScreeningButton.Size = new System.Drawing.Size(259, 44);
             this.scheduleScreeningButton.TabIndex = 1;
             this.scheduleScreeningButton.Text = "Schedule a screening";
             this.scheduleScreeningButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -813,18 +833,19 @@
             // 
             // viewBookingsButton
             // 
-            this.viewBookingsButton.BackColor = System.Drawing.Color.FromArgb(239, 246, 255);
+            this.viewBookingsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
             this.viewBookingsButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.viewBookingsButton.FlatAppearance.BorderSize = 0;
-            this.viewBookingsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(219, 234, 254);
-            this.viewBookingsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(219, 234, 254);
+            this.viewBookingsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
+            this.viewBookingsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.viewBookingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.viewBookingsButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.viewBookingsButton.ForeColor = System.Drawing.Color.FromArgb(37, 99, 235);
+            this.viewBookingsButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.viewBookingsButton.Location = new System.Drawing.Point(0, 112);
             this.viewBookingsButton.Margin = new System.Windows.Forms.Padding(0, 4, 0, 6);
             this.viewBookingsButton.Name = "viewBookingsButton";
             this.viewBookingsButton.Padding = new System.Windows.Forms.Padding(14, 0, 0, 0);
-            this.viewBookingsButton.Size = new System.Drawing.Size(268, 44);
+            this.viewBookingsButton.Size = new System.Drawing.Size(259, 276);
             this.viewBookingsButton.TabIndex = 2;
             this.viewBookingsButton.Text = "View all bookings";
             this.viewBookingsButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1019,7 +1040,7 @@
             this.dashboardButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dashboardButton.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dashboardButton.ForeColor = System.Drawing.Color.White;
-            this.dashboardButton.Location = new System.Drawing.Point(20, 215);
+            this.dashboardButton.Location = new System.Drawing.Point(0, 220);
             this.dashboardButton.Name = "dashboardButton";
             this.dashboardButton.Padding = new System.Windows.Forms.Padding(14, 0, 0, 0);
             this.dashboardButton.Size = new System.Drawing.Size(218, 48);
@@ -1061,6 +1082,36 @@
             this.dashboardLayoutTable.ResumeLayout(false);
             this.welcomeHeaderPanel.ResumeLayout(false);
             this.welcomeHeaderPanel.PerformLayout();
+            this.statisticsSectionLayout.ResumeLayout(false);
+            this.statisticsHeaderPanel.ResumeLayout(false);
+            this.statisticsHeaderPanel.PerformLayout();
+            this.statisticsCardsLayout.ResumeLayout(false);
+            this.moviesCardPanel.ResumeLayout(false);
+            this.moviesCardPanel.PerformLayout();
+            this.bookingsCardPanel.ResumeLayout(false);
+            this.bookingsCardPanel.PerformLayout();
+            this.screensCardPanel.ResumeLayout(false);
+            this.screensCardPanel.PerformLayout();
+            this.revenueCardPanel.ResumeLayout(false);
+            this.revenueCardPanel.PerformLayout();
+            this.lowerDashboardLayout.ResumeLayout(false);
+            this.recentActivityPanel.ResumeLayout(false);
+            this.recentActivityLayout.ResumeLayout(false);
+            this.recentActivityHeaderPanel.ResumeLayout(false);
+            this.recentActivityHeaderPanel.PerformLayout();
+            this.activityItem1Panel.ResumeLayout(false);
+            this.activityItem1Panel.PerformLayout();
+            this.activityItem2Panel.ResumeLayout(false);
+            this.activityItem2Panel.PerformLayout();
+            this.activityItem3Panel.ResumeLayout(false);
+            this.activityItem3Panel.PerformLayout();
+            this.activityItem4Panel.ResumeLayout(false);
+            this.activityItem4Panel.PerformLayout();
+            this.quickActionsPanel.ResumeLayout(false);
+            this.quickActionsLayout.ResumeLayout(false);
+            this.quickActionsHeaderPanel.ResumeLayout(false);
+            this.quickActionsHeaderPanel.PerformLayout();
+            this.quickActionButtonsLayout.ResumeLayout(false);
             this.sideBarPanel.ResumeLayout(false);
             this.sideBarPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.profilePictureBox)).EndInit();

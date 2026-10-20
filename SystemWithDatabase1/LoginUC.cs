@@ -15,13 +15,26 @@ namespace SystemWithDatabase1
         public LoginUC()
         {
             InitializeComponent();
+            pnlLogin.BringToFront();
+        }
+
+        private void lblGoToRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            pnlRegister.BringToFront();
+        }
+
+        private void lblGoToLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            pnlLogin.BringToFront();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 main = (Form1)this.FindForm();
-
-            main.OpenPage(new DashboardUC());
+            var main = this.FindForm() as Form1;
+            if (main != null)
+            {
+                main.OpenPage(new DashboardUC());
+            }
         }
     }
 }

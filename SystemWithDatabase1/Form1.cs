@@ -33,7 +33,8 @@ namespace SystemWithDatabase1
 
             OpenPage(new LoginUC());
 
-        }
+            // https://www.facebook.com/tagaminsukami/posts/official-logo-of-mindoro-state-university-%EF%B8%8Fas-per-board-of-regents-bor-resolutio/4313139068769761/
+            }        
 
         private void label1_Click(object sender, EventArgs e)
         {
